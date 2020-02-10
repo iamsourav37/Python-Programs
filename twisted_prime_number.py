@@ -19,20 +19,19 @@ def is_prime(number):
 def reverse_number(number):
     reverse = 0
     while number != 0:
-        reverse = reverse + (number%10)*10
+        reverse = reverse*10 + number%10
         number //= 10
-    print('reverse in fun',reverse)
     return reverse
 
-number = int(input("Enter any number : "))
 
+number = int(input("Enter any number : "))
 if is_prime(number):
     reverse = reverse_number(number)
-    print(reverse)
+    print('reversed number :',reverse)
     if is_prime(reverse):
         print(number,"is a twisted prime number")
     else:
-        print(number,"is not a twisted prime number")
+        print(number,"is a prime number but not twisted prime number")
 else:
     print(number, "is not a prime number")
 
