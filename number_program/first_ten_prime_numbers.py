@@ -15,4 +15,3 @@ while count != 10:
         count += 1
     i += 1
 
-    
