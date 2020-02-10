@@ -1,5 +1,12 @@
 # Program to Check Harshad number
 
+'''
+A number is said to be the Harshad number if it is divisible by the sum of its digit.
+
+For example, if number is 156, then sum of its digit will be 1 + 5 + 6 = 12. Since 156 is divisible by 12. So, 156 is a Harshad number.
+
+Some of the other examples of Harshad number are 8, 54, 120, etc.
+'''
 
 def sum_of_digit(number):
         sum = 0
