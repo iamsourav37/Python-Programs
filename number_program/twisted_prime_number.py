@@ -8,12 +8,10 @@ Examples: 2, 3, 5, 7, 11, 13, 17, 31, 37, 71, 73, 79
 
 
 def is_prime(number):
-    flag = True
     for i in range(2,number//2+1):
         if number % i == 0:
-            flag = False
-            break
-    return flag
+            return False
+    return True
 
 
 def reverse_number(number):

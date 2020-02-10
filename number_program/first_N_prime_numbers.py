@@ -1,11 +1,9 @@
 # Program to print the first N prime numbers
 def is_prime(number):
-    flag = True
     for i in range(2,number//2+1):
         if number % i == 0:
-            flag = False
-            break
-    return flag
+            return False
+    return True
 
 
 limit = int(input("Enter range : "))
