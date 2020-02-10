@@ -1,4 +1,14 @@
 # Program to Check Disarium number
+'''
+Disarium number
+
+A number is said to be the Disarium number when the sum of its digit raised to the power of their respective positions is equal to the number itself.
+
+For example, 175 is a Disarium number as follows
+
+11 + 72 + 53 = 1 + 49 + 125 = 175
+Some of the other examples of Disarium number are 89, 135, 518 etc.
+'''
 
 number = int(input("Enter any number : "))
 
