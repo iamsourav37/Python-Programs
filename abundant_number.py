@@ -20,7 +20,7 @@ def sum_of_divisor(number):
 
 number = int(input("Enter any number :"))
 sum = sum_of_divisor(number)
-print(sum)
+
 if sum>number:
     print(number,"is an abundant number")
 else:
